@@ -15,6 +15,10 @@ public class CyclicBarrierDemo {
 
         new Thread(() -> {
             System.out.println(Thread.currentThread().getName() + "  ########## 车架号查车型信息");
+            new Thread(() -> {
+                System.out.println(Thread.currentThread().getName() + "  ########## 开始估值信息");
+
+            },"33333").start();
             try {
                 cyclicBarrier.await();
             } catch (Exception e) {

@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1f72461-fde9-4ad8-b49c-23282bdea55e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/base/juc/ExecutorServiceHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/base/juc/SingletonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/base/juc/ThreadPools.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/base-JUC/META-INF/base-JUC.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/base-JUC/cn/base/juc/CountDownLathDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/base-JUC/cn/base/juc/CountDownLathDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/base-JUC/cn/base/juc/CyclicBarrierDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/base-JUC/cn/base/juc/CyclicBarrierDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/base/juc/CountDownLathDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/base/juc/CountDownLathDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/base/juc/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/base/juc/CyclicBarrierDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingletonDemo">
+  <component name="RunManager" selected="Application.CountDownLathDemo">
     <configuration name="CountDownLathDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.base.juc.CountDownLathDemo" />
       <module name="base-JUC" />
@@ -141,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDownLathDemo" />
+        <item itemvalue="Application.CyclicBarrierDemo" />
         <item itemvalue="Application.SingletonDemo" />
         <item itemvalue="Application.DeadLockDemo" />
         <item itemvalue="Application.ExecutorDemo" />
-        <item itemvalue="Application.SemaphoreDemo" />
-        <item itemvalue="Application.CyclicBarrierDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -161,8 +162,17 @@
       <updated>1586434080036</updated>
       <workItem from="1586434091788" duration="5527000" />
       <workItem from="1586779651608" duration="3380000" />
-      <workItem from="1587280441869" duration="3796000" />
+      <workItem from="1587280441869" duration="5207000" />
+      <workItem from="1591200747438" duration="4615000" />
     </task>
+    <task id="LOCAL-00001" summary="自定义线程池 + 多线程单例模式实现 DCL+volatile">
+      <created>1587286409115</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587286409115</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,10 +183,47 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="自定义线程池 + 多线程单例模式实现 DCL+volatile" />
+    <option name="LAST_COMMIT_MESSAGE" value="自定义线程池 + 多线程单例模式实现 DCL+volatile" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/base/juc/ThreadPools.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/base/juc/ThreadPools.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/base/juc/ThreadPools.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/base/juc/CountDownLathDemo.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/cn/base/juc/CountDownLathDemo.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
